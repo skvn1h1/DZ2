@@ -32,6 +32,7 @@ public class Main {
                         animalGen(animal, console);
                     }
                     listOfAnimals.add(animal);
+                    assert animal != null;
                     animal.say();
                     break;
                 case LIST:
